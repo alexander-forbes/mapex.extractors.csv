@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<OutputType>Library</OutputType>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<Authors>Alexander Forbes Group Services (Pty) Ltd.</Authors>
+		<description>Provides CSV file extractor specifications.</description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/alexander-forbes/mapex.extractors.csv</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/alexander-forbes/mapex.extractors.csv.git</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>Mapex Extractors CSV</PackageTags>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="10.1.1" />
+		<PackageReference Include="Celloc" Version="3.0.1" />
+		<PackageReference Include="Celloc.DataTable" Version="2.0.1" />
+		<PackageReference Include="ExcelDataReader.DataSet" Version="3.6.0" />
+		<PackageReference Include="Mapex" Version="6.5.2" />
+		<PackageReference Include="Notus" Version="2.0.1" />
+		<PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.13" />
+		<PackageReference Include="System.Text.Encoding.CodePages" Version="5.0.0" />
+		<PackageReference Include="YamlDotNet" Version="11.2.1" />
+	</ItemGroup>
+</Project>
